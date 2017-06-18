@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name APM_BarrelJack)(type KiCad)(uri "$(KIPRJMOD)/libs/APM_BarrelJack.pretty")(options "")(descr ""))
+  (lib (name LOGOS)(type KiCad)(uri "$(KIPRJMOD)/libs/LOGOS.pretty")(options "")(descr ""))
+  (lib (name w_conn_mkds)(type KiCad)(uri "$(KIPRJMOD)/libs/w_conn_mkds.pretty")(options "")(descr ""))
+  (lib (name w_conn_mpt)(type KiCad)(uri "$(KIPRJMOD)/libs/w_conn_mpt.pretty")(options "")(descr ""))
+)
