@@ -76,9 +76,9 @@ Text GLabel 4800 3600 0    31   Input ~ 0
 CLK
 Text GLabel 4800 3400 0    31   Input ~ 0
 MOSI
-Text GLabel 6700 3300 2    31   Input ~ 0
+Text GLabel 6700 3000 2    31   Input ~ 0
 PWM_18
-Text GLabel 4800 3100 0    31   Input ~ 0
+Text GLabel 4800 4100 0    31   Input ~ 0
 PWM_13
 $Comp
 L Jumper_NC_Small JP1
@@ -217,7 +217,6 @@ NoConn ~ 4800 3300
 NoConn ~ 4800 3500
 NoConn ~ 6700 2800
 NoConn ~ 6700 2900
-NoConn ~ 6700 3000
 NoConn ~ 6700 3200
 NoConn ~ 6700 3500
 NoConn ~ 6700 3600
@@ -226,11 +225,12 @@ NoConn ~ 6700 3800
 NoConn ~ 4800 3800
 NoConn ~ 4800 3900
 NoConn ~ 4800 4000
-NoConn ~ 4800 4100
 NoConn ~ 4800 4200
 NoConn ~ 4800 4300
 NoConn ~ 6700 4400
 NoConn ~ 6700 4300
 NoConn ~ 6700 4000
 NoConn ~ 6700 4200
+NoConn ~ 6700 3300
+NoConn ~ 4800 3100
 $EndSCHEMATC
