@@ -1,17 +1,15 @@
-# Raspberry Pi Zero pHat Template
-This a KiCad template for a [Raspberry Pi Zero](https://www.raspberrypi.org/products/pi-zero/) sized pHat ('partial' Hat). It is based on the [Raspberry Pi B+ Hat template](https://github.com/xesscorp/RPi_Hat_Template) from Xess Corp. XESS Corp did all the hard work here.
+# Maniacal Labs PiPixel
 
-Currently there is no definition for Raspberry Pi Zero Hats so the
-[mechanical definition](https://www.raspberrypi.org/documentation/hardware/raspberrypi/mechanical/rpi-zero-v1_2_dimensions.pdf) for the Raspberry Pi Zero itself was used instead.
+The PiPixel provides simplified hookup of digital LED strips to the Raspberry Pi family of single board computers. It uses the standard Pi "HAT" form-factor to provide two easy power input options, and data output of the SPI port as well as GPIO 18 and 13 (used for WS2812), along with built-in voltage level shifting to keep your LED strips happy being connected to the 3.3V Pi.
 
-Both a thru-hole and a surface mount connector are provided, along with a different PCB edge for each. Just keep the PCB edge and connector type that you're using for your design and delete the others.
+# What's In The Bag
 
-The board outline looks like this:
+Your PiPixel is a user assembled kit which only requires basic soldering skills and comes with the following components:
 
-<img src="meta/RPi_Zero_Hat-brd.png" style="width:100%">
-
-## Status
-This template has not been used in a design yet so verify before using.
-
-## Using the Template
-Follow the instructions listed in the original [Raspberry Pi B+ Hat template](https://github.com/xesscorp/RPi_Hat_Template) from XESS Corp.
+- PiPixel PCB
+- Female 2x20 Header for connection to Pi
+- 2.1 / 5.5 mm barrel jack for power input option #1
+- 5mm pitch dual screw terminal for power input option #2
+- 74AHCT125 Level Shifter
+- 4 pin screw terminal for data/power output
+- 2x3 pin header and jumper for data line selection

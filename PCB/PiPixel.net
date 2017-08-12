@@ -1,6 +1,6 @@
 (export (version D)
   (design
-    (source /home/adam/Stuff/dev/KiCAD/PiLEDStripHat/PiLEDStripHat.sch)
+    (source /home/adam/Stuff/dev/KiCAD/PiPixel/PiPixel.sch)
     (date "Sun 02 Jul 2017 05:50:40 PM EDT")
     (tool "Eeschema 4.0.6-e0-6349~53~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
@@ -9,7 +9,7 @@
         (company)
         (rev)
         (date)
-        (source PiLEDStripHat.sch)
+        (source PiPixel.sch)
         (comment (number 1) (value ""))
         (comment (number 2) (value ""))
         (comment (number 3) (value ""))
@@ -18,7 +18,7 @@
     (comp (ref J1)
       (value RPi_GPIO)
       (footprint RPi_Hat:Pin_Header_Straight_2x20)
-      (libsource (lib PiLEDStripHat-cache) (part RPi_GPIO))
+      (libsource (lib PiPixel-cache) (part RPi_GPIO))
       (sheetpath (names /) (tstamps /))
       (tstamp 5516AE26))
     (comp (ref P1)
@@ -136,7 +136,7 @@
       (pins
         (pin (num 1) (name 1) (type passive))
         (pin (num 2) (name 2) (type passive))))
-    (libpart (lib PiLEDStripHat-cache) (part RPi_GPIO)
+    (libpart (lib PiPixel-cache) (part RPi_GPIO)
       (fields
         (field (name Reference) J)
         (field (name Value) RPi_GPIO))
@@ -187,9 +187,9 @@
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib))
     (library (logical 74ahc125)
-      (uri /home/adam/Stuff/dev/KiCAD/PiLEDStripHat/libs/74ahc125.lib))
-    (library (logical PiLEDStripHat-cache)
-      (uri /home/adam/Stuff/dev/KiCAD/PiLEDStripHat/PiLEDStripHat-cache.lib)))
+      (uri /home/adam/Stuff/dev/KiCAD/PiPixel/libs/74ahc125.lib))
+    (library (logical PiPixel-cache)
+      (uri /home/adam/Stuff/dev/KiCAD/PiPixel/PiPixel-cache.lib)))
   (nets
     (net (code 1) (name "Net-(U1-Pad12)")
       (node (ref U1) (pin 12)))
