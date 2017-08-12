@@ -15,3 +15,12 @@ Your PiPixel is a user assembled kit which only requires basic soldering skills 
 - 74AHCT125 Level Shifter
 - 4 pin screw terminal for data/power output
 - 2x3 pin header and jumper for data line selection
+
+
+# Assembly
+
+Check out the full [Assembly doc](Assembly.md)
+
+# Usage
+
+For all the details on using your PiPixel, check out the [Usage doc](Usage.md)

@@ -1,0 +1,17 @@
+{
+    "animation": {
+        "typename": "BiblioPixelAnimations.strip.Rainbows.RainbowCycle"
+    },
+    "run": {
+        "fps": 30
+    },
+    "driver": {
+        "typename": "spi",
+        "c_order": "RGB",
+        "num": 64
+    },
+    "layout": {
+        "typename": "strip",
+        "brightness": 128
+    }
+}
