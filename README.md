@@ -2,6 +2,8 @@
 
 The PiPixel provides simplified hookup of digital LED strips to the Raspberry Pi family of single board computers. It uses the standard Pi "HAT" form-factor to provide two easy power input options, and data output of the SPI port as well as GPIO 18 and 13 (used for WS2812), along with built-in voltage level shifting to keep your LED strips happy being connected to the 3.3V Pi.
 
+[![PiPixel Assembly & Usage](http://img.youtube.com/vi/4SfWzt9hN04/0.jpg)](http://www.youtube.com/watch?v=4SfWzt9hN04)
+
 # What's In The Bag
 
 Your PiPixel is a user assembled kit which only requires basic soldering skills and comes with the following components:
