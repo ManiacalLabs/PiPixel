@@ -81,4 +81,4 @@ Congratulations, you're done!
 
 ![Fully Assembled](img/17.jpg)
 
-For all the details on using the Pipixel, checkout the [Usage](Usage.md) doc.
+For all the details on using the PiPixel, checkout the [Usage](Usage.md) doc.
