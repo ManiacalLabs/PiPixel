@@ -4,6 +4,10 @@ The following documentation will focus on usage of the PiPixel with [BiblioPixel
 
 As of writing this, the PiPixel is supported on the Pi A+, B+, 2, 3, Zero, and Zero W. As the original Pi has a smaller GPIO header the PiPixel does not support the original Pi.
 
+Also be sure to checkout the PiPixel Assembly and Usage video:
+
+[![PiPixel Assembly & Usage](http://img.youtube.com/vi/4SfWzt9hN04/0.jpg)](http://www.youtube.com/watch?v=4SfWzt9hN04)
+
 ### Power
 
 The PiPixel has two input options, a black 2.1mm barrel jack and green 2-pin screw terminal. For both the maximum current is 5A. If you need more power, you will need to splice power into the LED strip further down the line.
