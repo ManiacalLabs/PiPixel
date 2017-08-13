@@ -16,6 +16,13 @@ Your PiPixel is a user assembled kit which only requires basic soldering skills 
 - 4 pin screw terminal for data/power output
 - 2x3 pin header and jumper for data line selection
 
+# Where To Get Optional Headers
+
+- [Extra Tall Female Header](https://www.sparkfun.com/products/14017)
+- [Male Header](https://www.sparkfun.com/products/14275)
+- [Stacking Header](https://www.adafruit.com/product/1979)
+- [Ribbon Cable](https://www.sparkfun.com/products/13028)
+
 
 # Assembly
 
