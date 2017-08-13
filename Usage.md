@@ -6,7 +6,7 @@ As of writing this, the PiPixel is supported on the Pi A+, B+, 2, 3, Zero, and Z
 
 Also be sure to checkout the PiPixel Assembly and Usage video:
 
-[![PiPixel Assembly & Usage](http://img.youtube.com/vi/4SfWzt9hN04/0.jpg)](http://www.youtube.com/watch?v=4SfWzt9hN04)
+[![PiPixel Assembly & Usage](http://img.youtube.com/vi/wtbaeGrnpRE/0.jpg)](http://www.youtube.com/watch?v=wtbaeGrnpRE)
 
 ### Power
 

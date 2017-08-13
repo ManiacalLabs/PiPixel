@@ -4,7 +4,7 @@
 
 The PiPixel is a simple kit with minimal parts and only requires basic soldering skills. You can either follow along with the instructions in this document or follow the build process in the video below:
 
-[![PiPixel Assembly & Usage](http://img.youtube.com/vi/4SfWzt9hN04/0.jpg)](http://www.youtube.com/watch?v=4SfWzt9hN04)
+[![PiPixel Assembly & Usage](http://img.youtube.com/vi/wtbaeGrnpRE/0.jpg)](http://www.youtube.com/watch?v=wtbaeGrnpRE)
 
 #### Kit Contents
 ![Kit Parts](img/2.jpg)
