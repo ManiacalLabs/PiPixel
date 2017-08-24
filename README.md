@@ -1,3 +1,5 @@
+If you require support, please post to the [Maniacal Labs Google Group](https://github.com/ManiacalLabs/PiPixel/blob/master/Usage.md#data-output-options).
+
 # Maniacal Labs PiPixel
 
 The PiPixel provides simplified hookup of digital LED strips to the Raspberry Pi family of single board computers. It uses the standard Pi "HAT" form-factor to provide two easy power input options, and data output of the SPI port as well as GPIO 18 and 13 (used for WS2812), along with built-in voltage level shifting to keep your LED strips happy being connected to the 3.3V Pi. No longer will you have a rats-nest of wires and power between your Pi and your LEDs. Slap on the PiPixel, connect power, connect LEDs, and go!
