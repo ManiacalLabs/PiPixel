@@ -26,6 +26,17 @@ The PiPixel has 3 options for data output, to support a variety LED strip types.
 - GP18: GPIO #18 and the default option for use with WS2812 (NeoPixel) LEDs via the  [PiWS281X](https://github.com/ManiacalLabs/BiblioPixel/wiki/PiWS281X) BiblioPixel driver.
 - GP13: A secondary option for WS2812 LEDs in case GPIO #18 is in use by something else. Be sure to change the `gpio` parameter to 13 in your PiWS281X configuration.
 
+### LED Count Limits
+
+If using [PiWS281X](https://github.com/ManiacalLabs/BiblioPixel/wiki/PiWS281X) there's no theoretical limit other than more pixels require more time to update per frame. But SPI is limited by the Raspbian OS to only 4096 bytes. However, you can increase the SPI buffer pretty easily:
+
+This can be changed in /boot/cmdline.txt by appending
+
+`spidev.bufsiz=32768`
+
+The above will increase your pixel limit 8 times to over 10,000 pixels for LPD8806 and WS2801 and just over 8,000 for APA102 and SK9822.
+
+
 ### Running with BiblioPixel
 
 First, follow the [BiblioPixel Installation instructions](https://github.com/ManiacalLabs/BiblioPixel/wiki/Installation).
