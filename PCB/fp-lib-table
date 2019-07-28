@@ -5,4 +5,5 @@
   (lib (name w_conn_mpt)(type KiCad)(uri "$(KIPRJMOD)/libs/w_conn_mpt.pretty")(options "")(descr ""))
   (lib (name Jumper)(type KiCad)(uri ${KIPRJMOD}/libs/Jumper.pretty)(options "")(descr ""))
   (lib (name RPi_HAT_MountingHole)(type KiCad)(uri ${KIPRJMOD}/libs/RPi_HAT_MountingHole.pretty)(options "")(descr ""))
+  (lib (name CuttableSolderJumper)(type KiCad)(uri ${KIPRJMOD}/libs/CuttableSolderJumper.pretty)(options "")(descr ""))
 )

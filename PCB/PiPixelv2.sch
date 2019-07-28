@@ -86,7 +86,7 @@ U 1 1 5D3DEE5D
 P 7050 2250
 F 0 "JP1" H 7050 2455 50  0000 C CNN
 F 1 "SolderJumper_2_Bridged" H 7050 2364 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 7050 2250 50  0001 C CNN
+F 2 "CuttableSolderJumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 7050 2250 50  0001 C CNN
 F 3 "~" H 7050 2250 50  0001 C CNN
 	1    7050 2250
 	1    0    0    -1  
@@ -273,4 +273,11 @@ Text GLabel 9000 4400 2    39   Input ~ 0
 GND
 Wire Wire Line
 	9000 4400 8900 4400
+Connection ~ 5250 4800
+Text Notes 7700 2200 0    50   ~ 0
+Cut to disable MOSI Data
+Text Notes 7700 2750 0    50   ~ 0
+Data Pin Select\n1+2=GP18\n2+3=GP13
+Text Notes 7850 4850 0    50   ~ 0
+Power Pi from Pwr Input
 $EndSCHEMATC
