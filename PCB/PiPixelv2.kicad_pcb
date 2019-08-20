@@ -343,7 +343,7 @@
     (fp_text value Raspberry_Pi_2_3 (at 1.27 50.59 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 1.27 24.13) (layer F.Fab)
+    (fp_text user %R (at -2.2 49) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 4.35 -1.8) (end -1.8 -1.8) (layer F.CrtYd) (width 0.05))
@@ -455,8 +455,8 @@
     (descr "DC Barrel Jack")
     (tags "Power Jack")
     (path /5D3DBDC1)
-    (fp_text reference J2 (at 10.09904 0 90) (layer F.SilkS) hide
-      (effects (font (size 1.016 1.016) (thickness 0.2032)))
+    (fp_text reference J2 (at 2 -3.5 180) (layer F.SilkS)
+      (effects (font (size 1.016 1.016) (thickness 0.15)))
     )
     (fp_text value Barrel_Jack_Switch (at 0 -5.99948) (layer F.SilkS) hide
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
@@ -477,7 +477,7 @@
     (at 27.94 47.625)
     (descr "2-way 5mm pitch terminal block, Phoenix MKDS series")
     (path /5D3DC9FC)
-    (fp_text reference J3 (at -3.94 -6.125) (layer F.SilkS) hide
+    (fp_text reference J3 (at -3.44 -4.125) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Conn_01x02 (at 0 5.9) (layer F.SilkS) hide
@@ -508,7 +508,7 @@
     (at 72 39 90)
     (descr "4-way 2.54mm pitch terminal block, Phoenix MPT series")
     (path /5D3DD3FE)
-    (fp_text reference J4 (at 6.5 -2.5 180) (layer F.SilkS) hide
+    (fp_text reference J4 (at 2.15 1.85 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Conn_01x04 (at 0 4.50088 90) (layer F.SilkS) hide
@@ -606,10 +606,10 @@
     (tags "CMS SOJ")
     (path /5D3D8F43)
     (attr smd)
-    (fp_text reference U1 (at 6 -1.5 180) (layer F.SilkS) hide
+    (fp_text reference U1 (at 3.5 -1 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 74AHC125 (at 0 1.27 90) (layer F.Fab)
+    (fp_text value 74AHC125 (at 0 1.27 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -4.445 0.762) (end -5.08 0.762) (layer F.SilkS) (width 0.15))
@@ -686,10 +686,10 @@
   )
 
   (gr_text "1+2=GP18\n2+3=GP13" (at 46.5 44.5) (layer F.SilkS) (tstamp 5D3D7779)
-    (effects (font (size 0.76 0.76) (thickness 0.17)))
+    (effects (font (size 0.76 0.76) (thickness 0.15)))
   )
   (gr_text "Cut to Disable\nMOSI Data" (at 46.5 36) (layer F.SilkS) (tstamp 5D3D75A9)
-    (effects (font (size 1 1) (thickness 0.17)))
+    (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text "Data Pin Select" (at 46.5 42) (layer F.SilkS) (tstamp 5D3D75A6)
     (effects (font (size 1 1) (thickness 0.17)))
@@ -698,7 +698,7 @@
     (effects (font (size 1 1) (thickness 0.17)))
   )
   (gr_text "Power Pi\nFrom Pwr Input" (at 30 39.5) (layer F.SilkS) (tstamp 5D3D7566)
-    (effects (font (size 1 1) (thickness 0.17)))
+    (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text "LED Output" (at 72.009 45.72) (layer F.SilkS)
     (effects (font (size 1.016 1.016) (thickness 0.254)))
