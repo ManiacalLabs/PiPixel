@@ -20,7 +20,7 @@ U 1 1 5D3D5B56
 P 4950 3500
 F 0 "J1" H 4950 4981 50  0000 C CNN
 F 1 "Raspberry_Pi_2_3" H 4950 4890 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x20_Pitch2.54mm" H 4950 3500 50  0001 C CNN
+F 2 "BSilk_PiHeader:Pin_Header_Straight_2x20_Pitch2.54mm" H 4950 3500 50  0001 C CNN
 F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 4950 3500 50  0001 C CNN
 	1    4950 3500
 	1    0    0    -1  
@@ -273,7 +273,6 @@ Text GLabel 9000 4400 2    39   Input ~ 0
 GND
 Wire Wire Line
 	9000 4400 8900 4400
-Connection ~ 5250 4800
 Text Notes 7700 2200 0    50   ~ 0
 Cut to disable MOSI Data
 Text Notes 7700 2750 0    50   ~ 0
