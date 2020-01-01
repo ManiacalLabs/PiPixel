@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\cavep\Documents\MLGITHUB\PiPixel\PCB\PiPixelv2.sch)
-    (date "8/22/2019 4:19:23 PM")
+    (date "1/1/2020 10:52:02 AM")
     (tool "Eeschema (5.1.2)-2")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -24,7 +24,7 @@
       (tstamp 5D3D5B56))
     (comp (ref U1)
       (value 74AHC125)
-      (footprint SMD_Packages:SOIC-14_N)
+      (footprint Housings_DIP:DIP-14_W7.62mm_LongPads)
       (libsource (lib 74ahc125) (part 74AHC125) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5D3D8F43))
