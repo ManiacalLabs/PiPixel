@@ -1,9 +1,6 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.7-e0-6372~58~ubuntu16.04.1)
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.2)-2")
 
   (general
-    (links 29)
-    (no_connects 0)
-    (area 10.244191 23.0245 78.07248 55.67418)
     (thickness 1.6)
     (drawings 48)
     (tracks 142)
@@ -40,8 +37,6 @@
     (zone_clearance 0.508)
     (zone_45_only no)
     (trace_min 0.01)
-    (segment_width 0.2)
-    (edge_width 0.1)
     (via_size 0.6)
     (via_drill 0.4)
     (via_min_size 0.4)
@@ -51,6 +46,8 @@
     (uvias_allowed no)
     (uvia_min_size 0.2)
     (uvia_min_drill 0.1)
+    (edge_width 0.1)
+    (segment_width 0.2)
     (pcb_text_width 0.3)
     (pcb_text_size 1.5 1.5)
     (mod_edge_width 0.15)
@@ -64,6 +61,9 @@
     (pcbplotparams
       (layerselection 0x01330_80000001)
       (usegerberextensions false)
+      (usegerberattributes false)
+      (usegerberadvancedattributes false)
+      (creategerberjobfile false)
       (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
@@ -72,8 +72,7 @@
       (useauxorigin false)
       (hpglpennumber 1)
       (hpglpenspeed 20)
-      (hpglpendiameter 15)
-      (hpglpenoverlay 2)
+      (hpglpendiameter 15.000000)
       (psnegative false)
       (psa4output false)
       (plotreference true)
@@ -85,7 +84,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory gerber/))
+      (outputdirectory "gerber/"))
   )
 
   (net 0 "")
@@ -302,10 +301,10 @@
       (net 26 GND))
     (pad 40 thru_hole oval (at 1.27 24.13 90) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 2 "Net-(J1-Pad40)"))
-    (model Pin_Headers.3dshapes/Pin_Header_Straight_2x20.wrl
-      (at (xyz 0 0 0))
+    (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x20_P2.54mm_Vertical.step
+      (offset (xyz -1.27 24.13 -1.778))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 180 0))
     )
   )
 
@@ -390,6 +389,11 @@
       (net 26 GND))
     (pad 3 thru_hole circle (at 3.2004 4.699) (size 4.5 4.5) (drill 2.99974) (layers *.Cu *.Mask F.SilkS)
       (net 26 GND))
+    (model ${KIPRJMOD}/libs/CAD.3dshapes/CUI_PJ-202AH.step
+      (offset (xyz -7.62 0 6.35))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 180))
+    )
   )
 
   (module w_conn_mkds:mkds_1,5-2 (layer F.Cu) (tedit 5945D12D) (tstamp 5945D033)
@@ -416,10 +420,10 @@
       (net 26 GND))
     (pad 2 thru_hole circle (at 2.5 0) (size 2.5 2.5) (drill 1.3) (layers *.Cu *.Mask F.SilkS)
       (net 25 PWR))
-    (model walter/conn_mkds/mkds_1,5-2.wrl
-      (at (xyz 0 0 0))
+    (model ${KIPRJMOD}/libs/CAD.3dshapes/1716020000.stp
+      (offset (xyz -5.08 5.08 -3.81))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -428,10 +432,10 @@
     (descr "4-way 2.54mm pitch terminal block, Phoenix MPT series")
     (path /5945246A)
     (fp_text reference P1 (at 0 -4.50088 90) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)))
     )
     (fp_text value CONN_01X04 (at 0 4.50088 90) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)))
     )
     (fp_line (start 5.30098 -3.0988) (end -5.30098 -3.0988) (layer F.SilkS) (width 0.254))
     (fp_line (start -5.30098 -2.70002) (end 5.30098 -2.70002) (layer F.SilkS) (width 0.254))
@@ -452,10 +456,10 @@
       (net 33 "Net-(P1-Pad2)"))
     (pad 3 thru_hole oval (at -1.27 0 90) (size 1.99898 1.99898) (drill 1.09728) (layers *.Cu *.Mask F.SilkS)
       (net 34 "Net-(P1-Pad3)"))
-    (model walter/conn_mpt/mpt_0,5-4-2,54.wrl
-      (at (xyz 0 0 0))
+    (model ${KIPRJMOD}/libs/CAD.3dshapes/4PinTerminalBlock.step
+      (offset (xyz 0 -3.175 3.048))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -478,10 +482,10 @@
       (net 30 MOSI))
     (pad 2 thru_hole oval (at 2.54 0 270) (size 2.032 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 32 "Net-(JP1-Pad2)"))
-    (model Socket_Strips.3dshapes/Socket_Strip_Straight_1x02.wrl
-      (at (xyz 0.05 0 0))
+    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.step
+      (offset (xyz 2.54 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 180))
+      (rotate (xyz 0 0 90))
     )
   )
 
@@ -504,10 +508,10 @@
       (net 28 PWM_13))
     (pad 2 thru_hole oval (at 2.54 0 270) (size 2.032 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 32 "Net-(JP1-Pad2)"))
-    (model Socket_Strips.3dshapes/Socket_Strip_Straight_1x02.wrl
-      (at (xyz 0.05 0 0))
+    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.step
+      (offset (xyz 2.54 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 180))
+      (rotate (xyz 0 0 90))
     )
   )
 
@@ -530,10 +534,10 @@
       (net 29 PWM_18))
     (pad 2 thru_hole oval (at 2.54 0 270) (size 2.032 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 32 "Net-(JP1-Pad2)"))
-    (model Socket_Strips.3dshapes/Socket_Strip_Straight_1x02.wrl
-      (at (xyz 0.05 0 0))
+    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.step
+      (offset (xyz 2.54 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 180))
+      (rotate (xyz 0 0 90))
     )
   )
 
@@ -591,7 +595,7 @@
       (net 27 5V))
     (pad 14 thru_hole oval (at 7.62 0) (size 2.3 1.6) (drill 0.8) (layers *.Cu *.Mask F.SilkS)
       (net 27 5V))
-    (model Housings_DIP.3dshapes/DIP-14_W7.62mm_LongPads.wrl
+    (model ${KISYS3DMOD}/Package_DIP.3dshapes/DIP-14_W7.62mm.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -601,10 +605,10 @@
   (module LOGOS:logo_MLlabs_small (layer F.Cu) (tedit 0) (tstamp 5945DD17)
     (at 30.988 36.068)
     (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
-      (effects (font (thickness 0.3)))
+      (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
     (fp_text value LOGO (at 0.75 0) (layer F.SilkS) hide
-      (effects (font (thickness 0.3)))
+      (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
     (fp_poly (pts (xy 0.280132 -4.064859) (xy 0.46933 -4.064296) (xy 0.651803 -4.063447) (xy 0.824802 -4.062307)
       (xy 0.98558 -4.060879) (xy 1.131388 -4.059163) (xy 1.259478 -4.057157) (xy 1.367101 -4.054863)
@@ -718,7 +722,7 @@
     (effects (font (size 1.016 1.016) (thickness 0.254)))
   )
   (gr_text "Maniacal Labs\nPiPixel" (at 43.434 50.292) (layer F.SilkS)
-    (effects (font (thickness 0.3)))
+    (effects (font (size 1.524 1.524) (thickness 0.3)))
   )
   (gr_line (start 39.37 34.544) (end 39.37 34.29) (angle 90) (layer F.SilkS) (width 0.2))
   (gr_line (start 41.91 34.29) (end 41.91 34.544) (angle 90) (layer F.SilkS) (width 0.2))
